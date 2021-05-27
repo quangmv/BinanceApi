@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BinanceApi'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A lightweight client lib for Binance.com'
 
 
@@ -22,7 +22,7 @@ BinanceApiClient is a lightweight client lib for Binance.com,
   s.public_header_files = 'BinanceApi/**/*.h'
   s.frameworks = 'CoreFoundation'
 
-  s.dependency 'Alamofire', '~> 4.7.3'
+  s.dependency 'Alamofire', '~> 5.0.0'
 
   s.requires_arc = true
 end
